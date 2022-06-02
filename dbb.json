@@ -1,0 +1,66 @@
+{
+    "dashboard":{
+        "posts":1,
+        "likes":45,
+        "followers":30,
+        "following":33
+    },
+    "news":[
+        {
+           "id":1,
+           "title":"News Article1",
+           "description":"Description1",
+           "category":"sports"
+        },
+        {
+           "id":2,
+           "title":"News Article2",
+           "description":"Description2",
+           "category":"politics"
+        },
+        {
+           "id":3,
+           "title":"News Article3",
+           "description":"Description3",
+           "category":"sports"
+       }
+    ],
+    "recipes": [
+        {
+            "id":1,
+            "name":"Machurian",
+            "calories":"100kcal"
+        },
+        {
+            "id":2,
+            "name":"Raita",
+            "calories":"150kcal"
+        },
+        {
+            "id":3,
+            "name":"Coffee",
+            "calories":"10kcal"
+        },
+        {
+            "id":4,
+            "name":"Tea",
+            "calories":"50kcal"
+        },
+        {
+            "id":5,
+            "name":"Pasta",
+            "calories":"150kcal"
+        },
+        {
+            "id":6,
+            "name":"Burger king",
+            "calories":"10kcal"
+        },
+        {
+            "id":7,
+            "name":"Hello hut",
+            "calories":"300kcal"
+        }
+
+    ]
+}

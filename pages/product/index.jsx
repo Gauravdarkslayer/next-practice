@@ -57,6 +57,11 @@ export default Index
 
 
 export async function getStaticProps() {
+  // This getStaticProps function will only run on the server side 
+  // Accessing the file system using the fs module or querying a database can be done inside this function
+  // This code will not be the part of bundle which is to be sent to the client.
+  // This function only allowed to be in any file in the pages folder.
+  // Returns object of props of object which contains data 
   const response = await fetch('https://jsonplaceholder.typicode.com/users');
   return {
     props: {
